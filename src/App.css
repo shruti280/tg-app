@@ -1,38 +1,236 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: .3s ease;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Color */
+:root{
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+a{
+    text-decoration: none;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li{
+    list-style: none;
+
+}
+.section{
+    padding : 4rem 0 2rem;
+
+}
+.container{
+    padding-left:1.5rem;
+    padding-right:1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flex{
+    display : flex;
+    align-items: center;
 }
+
+.grid{
+    display : grid;
+    align-items: center;
+}
+.btn{
+    padding: .4rem 1.5rem;
+    /* background: var(--PrimaryColor); */
+    background: orange;
+    border:none;
+    outline: none;
+    border-radius: 3rem;
+    cursor: pointer;
+
+}
+
+.btn a{
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.btn:hover{
+    background: rgb(236, 156, 9);
+}
+
+.btn:hover a{
+color: whitesmoke;
+}
+.secIntro{
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto 2rem;
+
+}
+
+.secIntro .secTitle{
+    color:var(--blackColor);
+    line-height:1.5rem;
+    padding-bottom: .5rem;
+
+}
+
+.secIntro p{
+    font-size: 13px;
+    color: var(--textColor);
+    font-weight: 500;
+
+}
+
+img,video{
+    width: 100%;
+    height: auto;
+
+}
+input{
+    font-size: 100%;
+}
+
+
+
+/* media queries */
+@media screen and (min-width:556px) {
+    .mainContent, .singlePost{
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width:884px) {
+    .mainContent{
+    grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width:1240px) {
+    .container{
+        width: 75% !important;
+        margin: auto !important;
+    }
+
+    .section{
+        padding: 5rem 0 3rem;
+    }
+    .secIntro{
+        margin: 0 auto 3rem;
+    }
+
+    .secIntro, .secTitle{
+line-height: 2rem;
+padding-bottom: 1rem;
+font-size: 2.2rem;
+    }
+.secIntro p{
+    font-size: 15px;
+}
+
+}
+
+@media screen and (min-width:2560px) {
+    body{
+        zoom: 1.7
+    }
+}
+
+
+/* page design */
+
+::selection{
+    background: orange;
+    color: whitesmoke;
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+    background: rgba(220, 220, 220, 0.377);
+}
+
+::-webkit-scrollbar-thumb{
+    background: orange;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

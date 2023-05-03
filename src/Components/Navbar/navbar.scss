@@ -1,0 +1,212 @@
+.navBarSection{
+    .header{
+        position: fixed;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        background: transparent;
+        width: 100%;
+        padding: 1rem;
+        z-index: 1000;
+
+        .logoDiv{
+            .Logo{
+                color: whitesmoke;
+                font-weight: 500;
+                cursor: pointer;
+                justify-content: center;
+                align-items: center;
+            }
+            .icon{
+                color: orange;
+                font-size: 25px;
+                margin-right: 10px;
+                
+            }
+        }
+        @media screen and (max-width:768px) {
+
+            .navBar{
+                background: rgb(249, 247, 247);
+                position: absolute;
+                height :max-content;
+                padding: 1rem;
+                width: 100%;
+                left: -500%;
+                top: 0;
+                box-shadow: 0 2px 4px rgba(209,209,209,0.904);
+                transition: .5s ease;
+                z-index: 1000;
+
+                .navLists{
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 100%;
+                    margin: auto;
+
+                    .navItem{
+                        padding : 1rem 0; //on the wide screen padding should be :0 1rem
+
+                        .navLink{
+                            color: black;
+                            font-size: .9rem;
+                            font-weight: 600;
+                            &:hover{
+                                color: orange;
+                            }
+                        }
+                    }
+
+.headerBtns{
+    flex-direction: column;
+    .btn{
+        margin-top: 1rem; //on the wide screen margin-left should be 1rem
+
+        a{
+            font-weight:600;
+            &:hover{
+                color:whitesmoke;
+            }
+        }
+    }
+    .loginBtn{
+background: none;
+border: 1px solid orange;
+a{
+    color:orange;
+}
+&:hover{
+    background: orange;
+    a{
+        color: whitesmoke;
+    }
+}
+    }
+}
+
+                }
+                .closeNavbar{
+                    position: absolute;
+                    top: 1rem;
+                    right: 1.5rem;
+                    color: orange;
+                    &:hover .icon{
+                        color:bisque;
+                    }
+                }
+            }
+            
+            .activeNavbar{
+                left: 0;
+
+            }
+        }
+
+        .toggleNavbar{
+            font-size: 25px;
+            color: whitesmoke;
+            &:hover{
+                color: orange;
+            }
+        }
+    }
+
+    .activeHeader{
+        background: rgb(198, 198, 198);
+        box-shadow: 0 2px 8px 2px rgba(178,178,178,0.45);
+
+    }
+}
+
+
+//media
+
+@media screen and (min-width: 769px) {
+    .navBarSection{
+        .toggleNavbar, .closeNavbar{
+            display:none;
+        }
+
+        .header{
+            padding:1.5rem 2rem;
+
+            .navBar{
+                .navLists{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: row;
+
+
+                    .navItem{
+                        .navLink{
+                            color: whitesmoke;
+                            padding: 0.45rem;
+                            font-size: .9rem;
+                            font-weight:400;
+                            &:hover{
+                                color: orange;
+                           
+                           
+                            }
+                        }
+
+
+                    }
+
+                    .btn{
+                        margin-left: 1rem;
+                        a{
+                            color: whitesmoke;
+                            font-weight: 500;
+                        }
+                    }
+
+                    .loginBtn{
+                        background: none;
+                        border: 1px solid orange;
+                        &:hover{
+                            background: orange;
+                            a{
+                                color: whitesmoke;
+                            }
+                        }
+                    }
+
+
+                }
+
+
+
+
+            }
+
+
+        }
+
+
+    }
+
+}
+
+
+
+@media screen and (min-width: 960px) {
+    .header{
+        .navBar{
+            .navLists{
+                .navItem{
+                    padding: 0.7rem;
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .header{
+       padding: 1rem 8.5rem !important;
+    }
+    
+}
