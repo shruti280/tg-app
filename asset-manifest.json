@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/tg-app/static/css/main.7eae24ab.css",
+    "main.js": "/tg-app/static/js/main.86038018.js",
+    "static/media/video.mp4": "/tg-app/static/media/video.f8f572eb8c8753cb2452.mp4",
+    "static/media/outside tunisia (2).jpg": "/tg-app/static/media/outside tunisia (2).56d8143b890118ecc4a3.jpg",
+    "static/media/peru.jpg": "/tg-app/static/media/peru.90691dadd28b1f6c051b.jpg",
+    "static/media/hotel (2).jpg": "/tg-app/static/media/hotel (2).e4824fffe5fe1fdc54f1.jpg",
+    "static/media/maps.jpg": "/tg-app/static/media/maps.af2684b10cba391f672c.jpg",
+    "static/media/house.jpg": "/tg-app/static/media/house.ea05ed9682bd033339ec.jpg",
+    "static/media/mexico.jpg": "/tg-app/static/media/mexico.f18c1c84688ba2c03e98.jpg",
+    "static/media/eiffel tower.jpg": "/tg-app/static/media/eiffel tower.de99ca4b2d5ff82e97c6.jpg",
+    "static/media/cambodia.jpg": "/tg-app/static/media/cambodia.eda56ea4423a557e7a5c.jpg",
+    "static/media/wonderful exp (1).jpg": "/tg-app/static/media/wonderful exp (1).b7ddf8ecf96c00c3d979.jpg",
+    "static/media/morocco.jpg": "/tg-app/static/media/morocco.8c9d2ddcfd0b2977c367.jpg",
+    "static/media/hotel.jpg": "/tg-app/static/media/hotel.3dbe21cdc2513d22b6db.jpg",
+    "static/media/india.jpg": "/tg-app/static/media/india.12ac22ab688dc8d71451.jpg",
+    "static/media/bgImg.jpeg": "/tg-app/static/media/bgImg.efd827e3df37421ea037.jpeg",
+    "static/media/hiking (1).png": "/tg-app/static/media/hiking (1).19974a126a4c21d75541.png",
+    "static/media/customer service.png": "/tg-app/static/media/customer service.bcad22da7b0d84db30a6.png",
+    "static/media/mountain.png": "/tg-app/static/media/mountain.33f4ada53642033871c9.png",
+    "index.html": "/tg-app/index.html",
+    "main.7eae24ab.css.map": "/tg-app/static/css/main.7eae24ab.css.map",
+    "main.86038018.js.map": "/tg-app/static/js/main.86038018.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eae24ab.css",
+    "static/js/main.86038018.js"
+  ]
+}
